@@ -13,7 +13,7 @@ big_num = 20
 while True:
     guess = guess_number(small_num, big_num)
     if guess > big_num or guess < small_num:
-    	print("Your guess is invalid!")
+    	print(f"Limit your guess between {small_num}-{big_num}!")
     elif guess > random_number:
         print(f"The number is smaller than {guess}! ")
         big_num = guess
