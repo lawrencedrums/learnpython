@@ -1,7 +1,7 @@
 from random import randrange
 
 comp_play = randrange(1, 3)
-prompt = "What's your play? (1 for Rock, 2 for Paper, 3 for Scissors): "
+prompt = "What are you playing? (1 for Rock, 2 for Paper, 3 for Scissors): "
 
 while True:
     user_play = input(prompt)
