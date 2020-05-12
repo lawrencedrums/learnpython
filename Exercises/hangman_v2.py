@@ -1,7 +1,7 @@
 import random
 
 words = ['aubergine', 'breakfast', 'calender', 
-        'dilemma', 'essential', 'fabric']
+        'dilemma', 'essential', 'fabric', 'throne', 'customer']
 
 answer = random.choice(list(words))
 guesses = []
